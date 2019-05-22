@@ -10,9 +10,6 @@ public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
         super(driver);
     }
-
-
-
         @FindBy(css = ".front-banner__btns a:nth-child(2)")
         private WebElement becomeDriverButton;
 
