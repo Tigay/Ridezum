@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class JobPage  extends BasePage{
     public JobPage(WebDriver driver) {
         super(driver);
+    }
 
         @FindBy(css = ".posting-btn-submit.template-btn-submit.hex-color")
                 private WebElement applyButton;
@@ -19,4 +20,4 @@ public class JobPage  extends BasePage{
         }
 
     }
-}
+
